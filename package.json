@@ -1,0 +1,16 @@
+﻿{
+  "name": "KADİR",
+  "version": "0.1.1",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "test": "node bot.js"
+  },
+  "author": "KADİR",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "moment": "^2.22.2",
+    "ms": "^2.1.1"
+  }
+}
