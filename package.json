@@ -1,16 +1,31 @@
-﻿{
-  "name": "KADİR",
-  "version": "0.1.1",
-  "description": "",
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "version": "0.0.1",
+  "description": "Çalanlar B",
   "main": "bot.js",
   "scripts": {
-    "test": "node bot.js"
+    "start": "node bot.js"
   },
-  "author": "KADİR",
-  "license": "ISC",
   "dependencies": {
-    "chalk": "^2.4.1",
-    "moment": "^2.22.2",
-    "ms": "^2.1.1"
-  }
+    "chalk": "^4.0.0",
+    "discord.js": "^11.5.1",
+    "express": "^4.17.1",
+    "jimp": "^0.12.1",
+    "moment": "^2.26.0",
+    "quick.db": "^7.1.1"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/salty-airport"
+  },
+  "license": "GPL-3.0",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
 }

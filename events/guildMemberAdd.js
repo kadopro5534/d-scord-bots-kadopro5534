@@ -1,5 +1,4 @@
+const Discord = require('discord.js');
 module.exports = member => {
-    let username = member.user.username;
-    member.send('Hoş geldin **' + username + '**!');
-    member.guild.defaultChannel.send('hg '+username+'');
 };
+
